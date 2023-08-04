@@ -59,6 +59,27 @@ nav {
     align-items: center;
 }
 
+.hobbies {
+    margin-top: 10px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobby_container {
+    background-color: #1f2e53;
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .image {
     width: 25%;
     margin-right: 20px;
@@ -74,10 +95,18 @@ a {
 }
 
 p {
-    margin-left: 20px;
     font-family: Helvetica;
-    font-size: 200%;
     color: #4b6dc2;
+}
+
+#life_paragraph {
+    margin-left: 20px;
+    font-size: 200%;
     height: 90%;
     width: 70%;
+}
+
+.hobby_info {
+    font-size: 150%;
+    width: 80%;
 }

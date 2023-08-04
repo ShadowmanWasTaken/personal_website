@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <audio controls>
+        <source src="../audio/life-is-roblox-dj-khaled.mp3" type="audio/mpeg">
+    </audio>
     <nav>
-        <div class="tab">My Life</div>
-        <div class="tab">Hobbies</div>
+        <div class="tab" id="mylife">
+            <a href="./mylife.html">My Life</a>
+        </div>
+        <div class="tab">
+            <a href="./hobbies.html">Hobbies</a>
+        </div>
         <div class="tab">Goals</div>
         <div class="tab">
             <a href="https://docs.google.com/document/d/1w19y8dDRJc8agg3szqq9e77D2b3KYBdWdWrJOFB2PE8/edit?usp=sharing" target="_blank">Resume</a>
@@ -19,12 +26,13 @@
         <h1>My Life</h1>
     </div>
     <div class="info">
-        <p>
+        <p id="life_paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque laoreet. Semper auctor neque vitae tempus quam pellentesque nec nam. Duis at tellus at urna condimentum mattis pellentesque id nibh. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Netus et malesuada fames ac. Praesent semper feugiat nibh sed pulvinar proin. Amet mauris commodo quis imperdiet massa tincidunt. Commodo elit at imperdiet dui. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
         </p>
         <div class="image">
-            <img src="avatar.png">
+            <img src="../images/avatar.png">
         </div>
     </div>
+    <script src="../js/script.js"></script>
 </body>
 </html>
